@@ -62,3 +62,11 @@ Evaluate the trained models using:
 
 The best accuracy achieved was **90.7%**, using the **XGBoost** model. This demonstrates strong performance in predicting students' adaptability levels.
 
+###Contributing
+We welcome contributions to improve the model and its performance. If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. We appreciate your contributions and will review them promptly.
+
+###License
+MIT
+
+This project is licensed under the MIT License, allowing you to freely use, modify, and distribute the software.
+

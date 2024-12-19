@@ -1,4 +1,4 @@
-**Student Adaptability in Online Education**
+#**Student Adaptability in Online Education**
 
 Welcome to the Student Adaptability in Online Education project! This repository contains a custom implementation of machine learning models for classification tasks, built with Python. The project focuses on analyzing and predicting students' adaptability levels in online education using data from Kaggle.
 
@@ -15,63 +15,46 @@ The dataset contains information about students' adaptability levels in online e
 Dataset Features
 
 1. Gender: Male/Female.
-
 2. Age Group: Different age categories.
-
 3. Educational Stage: Primary, Secondary, or Higher Education.
-
 4. IT Usage: Frequency and comfort with technology.
-
 5.Adaptability Level: Target variable (Low, Medium, High).
-
 6. The dataset is publicly available on Kaggle.
 
 **Project Workflow**
 
-1. Data Preparation
+**1. Data Preparation**
 
 Ensure the dataset is formatted correctly, with features stored in a CSV file. Preprocess the data to:
 
-Handle missing values.
+A. Handle missing values.
+B. Normalize/scale features.
+C. Encode categorical variables.
 
-Normalize/scale features.
-
-Encode categorical variables.
-
-2. Model Implementation
+**2. Model Implementation**
 
 We use the following machine learning models to classify students' adaptability levels:
 
-Decision Tree: A tree-based algorithm that splits data based on feature values.
+A. Decision Tree: A tree-based algorithm that splits data based on feature values.
+B. Random Forest: An ensemble of decision trees for improved accuracy and robustness.
+C. K-Nearest Neighbors (KNN): A distance-based classifier.
+D.Support Vector Machine (SVM): A model that finds the hyperplane maximizing class separation.
+E. XGBoost: A gradient boosting algorithm for high-performance classification.
 
-Random Forest: An ensemble of decision trees for improved accuracy and robustness.
-
-K-Nearest Neighbors (KNN): A distance-based classifier.
-
-Support Vector Machine (SVM): A model that finds the hyperplane maximizing class separation.
-
-XGBoost: A gradient boosting algorithm for high-performance classification.
-
-3. Training the Models
+**3. Training the Models**
 
 Each model is trained through:
+A. Splitting the data into training and validation sets.
+B. Hyperparameter tuning for optimal performance.
+C. Training the models and calculating metrics.
 
-Splitting the data into training and validation sets.
+**4. Evaluation**
 
-Hyperparameter tuning for optimal performance.
+A. Evaluate the trained models using:
+B. Accuracy: Percentage of correctly classified instances.
+C. Precision, Recall, F1 Score: Additional metrics for detailed analysis.
+D. Confusion Matrix: Visualize prediction results.
 
-Training the models and calculating metrics.
-
-4. Evaluation
-
-Evaluate the trained models using:
-
-Accuracy: Percentage of correctly classified instances.
-
-Precision, Recall, F1 Score: Additional metrics for detailed analysis.
-
-Confusion Matrix: Visualize prediction results.
-
-5. Results
+**5. Results**
 
 The best accuracy achieved was 90.7%, using the XGBoost model. This demonstrates strong performance in predicting students' adaptability levels.

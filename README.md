@@ -1,4 +1,4 @@
-#**Student Adaptability in Online Education**
+**# Student Adaptability in Online Education**
 
 Welcome to the Student Adaptability in Online Education project! This repository contains a custom implementation of machine learning models for classification tasks, built with Python. The project focuses on analyzing and predicting students' adaptability levels in online education using data from Kaggle.
 

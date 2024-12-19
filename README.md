@@ -2,13 +2,13 @@
 
 Welcome to the Student Adaptability in Online Education project! This repository contains a custom implementation of machine learning models for classification tasks, built with Python. The project focuses on analyzing and predicting students' adaptability levels in online education using data from Kaggle.
 
-**Components**<br>
+**<h2>Components<h2>**
 
 1. Dataset: Kaggle - Students Adaptability Level in Online Education.
 2. Feature Extraction: Data preprocessing and feature engineering.
 3. Machine Learning Models: Decision Tree, Random Forest, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and XGBoost.
 
-**Dataset**
+**<h2>Dataset<h2>**
 
 The dataset contains information about students' adaptability levels in online education, including various demographic, social, and technical factors that influence their learning experiences. The data helps in training and testing predictive models to classify students' adaptability into distinct levels.
 
@@ -21,7 +21,7 @@ Dataset Features
 5.Adaptability Level: Target variable (Low, Medium, High).
 6. The dataset is publicly available on Kaggle.
 
-**Project Workflow**
+**<h2> Project Overflow <h2>**
 
 **1. Data Preparation**
 
